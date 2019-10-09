@@ -64,7 +64,7 @@ body {
 	}
 }
 #content {
-	position: fixed;
+	
 }
 
 ul {
@@ -84,7 +84,24 @@ a {
 a:hover, a.on {
 	color: #cc3333;
 }
-.page {
+img {
+
+  transition: filter .5s ease-in-out;
+  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+}
+img:hover {
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+}
+table, tr, th {
+	padding: 10px;
+}
+th {
+	font-weight: normal;
+}
+.footer {
+	font-size: 12px;
 	border: 1px solid #665544;
 	background-color: #efefef; 
 	}
