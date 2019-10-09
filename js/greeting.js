@@ -35,7 +35,7 @@ var _INTERVAL_VAL;
 var _ELEMENT = document.querySelector("#text");
 
 // Cursor element 
-//var _CURSOR = document.querySelector("#cursor");
+var _CURSOR = document.querySelector("#cursor");
 
 // Implements typing effect
 function Type() { 
