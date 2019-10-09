@@ -15,5 +15,5 @@ function detectmob() {
 }
 
 if detectmob() {
-	document.write("Looks like you're on mobile! Unfortunately, I haven't made this website to be mobile-friendly. View on desktop for best results!")
+	document.write("<p> Looks like you're on mobile! Unfortunately, I haven't made this website to be mobile-friendly. View on desktop for best results! <p>")
 }
