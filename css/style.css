@@ -47,7 +47,7 @@ h1, h2, h3 {
     float: right;
     width: 40%;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .mainNavBar a {
@@ -74,13 +74,40 @@ h1, h2, h3 {
 
 .mainNavBar li {
     text-align: center;
+    position: relative;
+    display: block;
     width: 33.3%;
     float: left;
+    transition-duration: 0.5s ;
+}
+
+.mainNavBar ul li ul { 
+    background-color: #1ea896;
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    min-width: 5rem;
+    width: 100%;
+    transition: all 0.5s ease;
+    display: none;
+}
+
+.mainNavBar ul li:hover > ul,
+ul li ul:hover {
+    visibility: visible;
+    display: block;
+    opacity: 1;
+}
+
+.mainNavBar ul li ul li {
+    position: relative;
+    clear: both;
+    width: 100%;
 }
 
 .main-content {
     float: left;
-    display: block;
+    display: table;
     box-sizing: border-box;
 
 }
@@ -124,7 +151,7 @@ p.review {
 
 
 
-@media(max-width: 750px) {
+@media(max-width: 768px) {
     h1 {
         text-align: center;
     }
@@ -145,8 +172,13 @@ p.review {
         text-align: center;
     }
     .mainNavBar{
+        display: block;
+        overflow: hidden;
         width: 100%;
         float: none;
+    }
+    ul ul {
+        display: none;
     }
     .bio {
         float: none;
