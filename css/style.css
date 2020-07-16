@@ -107,7 +107,7 @@ ul li ul:hover {
 
 .main-content {
     float: left;
-    display: table;
+    display: block;
     box-sizing: border-box;
 
 }
