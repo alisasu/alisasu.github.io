@@ -1,0 +1,166 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+    background-color: #ffffff;
+    line-height: 1.7em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+hr.top {
+    color: #ff715b;
+}
+
+hr.section {
+    color: #1ea896;
+    border-style: dashed;
+}
+
+a {
+    text-decoration: none;
+    color: #ff715b;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    color: #4c5454;
+}
+
+.clr {
+    clear: both;
+}
+
+.header {
+    color: #4c5454;
+    float: left;
+    width: 60%;
+    
+}
+
+.mainNavBar { 
+    background-color: #1ea896;
+    color: #ffffff;
+    margin-top: 10px;
+    border-right: 5px #368f8b solid;
+    float: right;
+    width: 40%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.mainNavBar a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    padding: 10px 15px;
+}
+
+.mainNavBar a:hover{
+    background-color: #368f8b;
+    color: #ffffff;
+}
+
+.mainNavBar a:active {
+    color: #ff715b;
+}
+
+.mainNavBar ul {
+    margin: auto;
+    padding: 0;
+    list-style: none;
+}
+
+.mainNavBar li {
+    text-align: center;
+    width: 33.3%;
+    float: left;
+}
+
+.main-content {
+    float: left;
+    display: block;
+    box-sizing: border-box;
+
+}
+
+ul.proj {
+    list-style: none;
+    font-style: italic;
+}
+
+.bio {
+    float: left;
+    width: 50%;
+}
+
+.biopic {
+    display: block;
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+}
+
+p.review {
+    color: #9bc1bc; 
+    text-align: center;
+}
+
+.footer {
+    width: 80%;
+    color: ivory;
+    text-align: center;
+    float: left;
+    background-color: #92b6b1;
+    left: 10%;
+    bottom: 0;
+    
+    position: relative;
+    
+}
+
+
+
+@media(max-width: 750px) {
+    h1 {
+        text-align: center;
+    }
+    #logo {
+        height: 120px;
+        width: 120px;
+    }
+    ul.proj { 
+        padding: 0%;
+        list-style-type: none;
+    }
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .header {
+        width: 100%;
+        text-align: center;
+    }
+    .mainNavBar{
+        width: 100%;
+        float: none;
+    }
+    .bio {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .biopic {
+        float: none;
+        width: 100%;
+        text-align: center;
+
+    }
+    .footer {
+        width: 100%;
+        left: 0;
+    }
+}
