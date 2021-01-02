@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+
+<html> 
+    <head lang="en">
+        <title> Guessing Game </title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+
+    <body>
+        <div id="main_box">
+            <h1> <span> Guessing Game</span></h1>
+
+            <div id="content">
+                <p> <b>Directions:</b> Guess a number between 1 and 100.</p>
+                <p id="remain"> You have 5 guesses remaining.</p>
+                <p id="guessed"> </p>
+                <h3> Your Guess: </h3>
+                <input type="text" id="new_guess" placeholder="type your guess here"> <input id="gimme_hint" type="button" value="Hint"> </input>
+                <p id="hint"></p> 
+                <input type="submit" value="Submit" id="submit_guess">
+            </div>
+        </div>
+
+        <script src="script.js"> </script> 
+
+    </body>
+</html>
