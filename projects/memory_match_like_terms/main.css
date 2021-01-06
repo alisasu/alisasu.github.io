@@ -16,6 +16,7 @@ body {
 
 .card {
     display: flex;
+    visibility: visible;
     justify-content: center;
     align-items: center;
     background-color:cadetblue;
@@ -32,6 +33,7 @@ body {
     background-color: #66cdaa;
     position: fixed;
     z-index: 1;
+    opacity: 0;
     width: auto;
     height: auto;
     border-radius: 20px;
@@ -39,8 +41,10 @@ body {
     text-align: center;
 }
 
-#submit_sum {
-    visibility: hidden;
+.show {
+	visibility: visible !important;
+    opacity: 1 !important;
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
 }
 
 sup { 
