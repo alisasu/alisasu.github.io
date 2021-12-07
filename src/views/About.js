@@ -20,6 +20,10 @@ const About = props => {
                 <small>&emsp;Study Abroad</small>
                 <small>&emsp;Spring 2018</small>
               </li>
+              <li>
+                Stuyvesant High School
+                <small>&emsp;Class of 2015</small>
+              </li>
             </ul>
           </li>
           <li><b>Technologies</b>
