@@ -33,12 +33,7 @@ img {
 }
 
 .navlink p {
-  visibility: hidden;
   margin: 0%;
-}
-
-.navlink:hover p {
-  visibility: visible;
 }
 
 #resume ul:first-child{
@@ -86,9 +81,6 @@ img {
     width: 13vw;
     margin: 0%;
   }  
-  .navlink p {
-    visibility: visible;
-  }
   #resume ul:first-child{
     flex-direction: column;
     align-items: left;
