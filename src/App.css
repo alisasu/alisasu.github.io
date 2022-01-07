@@ -2,6 +2,7 @@ body {
   background-color: #FDF4F1;
   font-family: 'Patrick Hand SC', monospace;
   text-align: center;
+  font-size: 2.5vh;
 }
 
 a {
@@ -56,6 +57,35 @@ img {
   text-overflow: ellipsis;
 }
 
+.projects {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+li {
+  margin: 2vh;
+}
+
+.proj {
+  color: #5c4b51;
+  background: rgb(245,230,199);
+  background: linear-gradient(180deg, rgba(245,230,199,1) 70%, rgba(246,196,178,1) 100%);
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  border-radius: 5px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
 
 
@@ -85,5 +115,11 @@ img {
     flex-direction: column;
     align-items: left;
     margin: 0vh 10vw;
+  }
+  ul {
+    flex-direction: column;
+  }
+  li {
+    margin: 2vh;
   }
 }
