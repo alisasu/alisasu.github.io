@@ -28,7 +28,7 @@ const About = props => {
           </li>
           <li><b>Technologies</b>
             <ul>
-              <li>JavaScript (Node.js)</li>
+              <li>JavaScript</li>
               <li>TypeScript</li>
               <li>Python</li>
               <li>Java</li>
@@ -41,8 +41,11 @@ const About = props => {
           </li>
           <li><b>Work Experience</b>
             <ul>
+              <li>Backend Engineer @ McGraw Hill
+              <small> &emsp; May 2022 - present</small>
+              </li>
               <li>Software Engineer @ ClassLink
-                <small> &emsp; Apr 2021 - present</small>
+                <small> &emsp; Apr 2021 - May 2022</small>
               </li>
               <li>Adjunct Instructor @ CUNY 
                 <small> &emsp; Feb 2020 - Sept 2020, Jun 2021 - Sept 2021</small>
